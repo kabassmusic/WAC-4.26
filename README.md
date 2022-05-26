@@ -7,7 +7,7 @@ Practically you can create any audio visualisation through Unreal Engine's BP sy
 -------------
 - Removed "Intermediate" folder. 
 - Changed file version in .uproject to "4.26". 
-- WindowsAudioCapture.h: Commented out "#include "ModuleManager.h"".
+- WindowsAudioCapture.h: Changed "#include "ModuleManager.h"" to "#include "Modules/ModuleManager.h"".
 
 UE 4.25:
 -------------
