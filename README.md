@@ -57,11 +57,12 @@ Video:
 Instructions:
 -------------
 1. Add WindowsAudioCapture inside Plugins folder in your project's folder ex. YOUR_PROJECT\Plugins\WindowsAudioCapture (if you dont have a Plugins folder feel free to crete one)
-2. Create an Actor BP
-3. Add a WindowsAudioCapture Component
-4. on tick event add a Get Frequency Array (its better to use a delay because its not necessary to capture frequencies all the time)
-5. Analyse Frequency Array as you preffer there are 4 functions so far to assist you Get Specific Freq Value, Get Average Freq Value in Range, Get Average Bass Value , Get Average Subbass Value
-6. Use the output value to move/rescale other actors or adjust light brightnes or color...let your fantasy guide you
+2. Build the plugin if prompted. 
+3. Create an Actor BP
+4. Add a WindowsAudioCapture Component
+5. On Tick Event add a "Get Frequency Array" (its better to use a delay because its not necessary to capture frequencies all the time)
+6. There are 4 functions so far to assist you; "Get Specific Freq Value", "Get Average Freq Value in Range", "Get Average Bass Value", and "Get Average Subbass Value"
+7. Use the output value to move/rescale other actors or adjust light brightnes or color...let your fantasy guide you
 
 Special Thanx:
 -------------
